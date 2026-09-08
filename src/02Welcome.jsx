@@ -1,5 +1,6 @@
-const Welcome = () => {
-  return <h2>Welcome Sonu! Here's your first react component</h2>
+const Welcome = (props) => {
+  console.log(props)
+  return <h2>Welcome {props.name} a.k.a {props.alias} ! </h2>
 }
 
 export default Welcome

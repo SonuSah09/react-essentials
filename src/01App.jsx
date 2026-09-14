@@ -11,6 +11,7 @@ import { Greeting } from './11Greeting';
 import { UserCard } from './13UserCard';
 import { CardWrapper } from './14CardWrapper';
 import { UserDetails } from './15UserDetails';
+import { ProductList } from './16ProductList';
 import './App.css'
 
 
@@ -18,6 +19,7 @@ function App() {
 
   return (
     <div>
+      <ProductList/>
       <UserDetails name="Bruice Wayne" isOnline={true} hideOffline={true} isPremium={true} isNewUser={true} role={"Admin"} />
       <UserDetails name="Clare Kent" isOnline={true} hideOffline={true} role={"VIP"} />
       <CardWrapper title="User Profile">
